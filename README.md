@@ -1,13 +1,13 @@
-# fcm-dotnet-admin
-Firebase cloud messaging from .net using admin sdk.
+# FCM-DotNet-Admin
+Firebase cloud messaging from .net using admin sdk. Sample code to send notification on topic. 
 
-# configuration of fcm server connection
+# Configuration Of FCM Server Connection
 1. Add configuration file in the path
 `<add key="ConfigFilePath" value="c:/FirebaseConfig.json" />`
 
 2. Set envoirnment variable for google services programatically
 `<add key="GoogleEnvVariable" value="GOOGLE_APPLICATION_CREDENTIALS" />`
 
-# additionally OneSignal implementation sample
+# Additionally OneSignal Implementation Sample
 1. Set 'token'
 2. Set 'AppId'
